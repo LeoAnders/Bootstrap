@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Container</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<style>
+.container{
+  width:170px ;
+  height: 150px;
+  background-color: rebeccapurple;
+  font-size: 14px
+}
+</style>
+<body>
+
+  <!--
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl:1400 px
+    {propriedade} - {Breakpoint} - {tamanho}
+  -->
+
+  <div class="container m-sm-3 p-xxl-4 bg-info">
+    <p>Este é um bloco de conteúdo que será exibido em telas maiores que 576px.</p>
+  </div>
+
+  <div class="container m-md-3 bg-info">
+    <p>Este é um bloco de conteúdo que será exibido em telas maiores que 768px.</p>
+  </div>
+
+  <div class="container m-lg-3 bg-info">
+    <p>Este é um bloco de conteúdo que será exibido em telas maiores que 992px.</p>
+  </div>
+
+  <div class="container m-xl-3 m-xxl-1 bg-info">
+    <p>Este é um bloco de conteúdo que será exibido em telas maiores que 1200px.</p>
+  </div>
+
+  <div class="container m-xxl-3 bg-info">
+    <p>Este é um bloco de conteúdo que será exibido em telas maiores que 1400px.</p>
+  </div>
+
+  
+  
+
+   
+</body>
+</html>
